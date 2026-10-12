@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opickles · Homemade Indian Pickles</title>
+  <meta name="description" content="Opickles makes homemade, handmade Indian pickles: Jalpai ka Achar (olive pickle), Meetha Aam ka Achar and more. Available on Amazon.in.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫙</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#f6f3ea; --surface:#fff; --text:#1f2a1d; --muted:#6d7266; --brand:#2f5d2a; --accent:#f2b632; --border:#e7e2d4; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#11160f; --surface:#182016; --text:#e9eee4; --muted:#9aa592; --brand:#8fc77f; --accent:#f5c556; --border:#2c3828; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 Inter, -apple-system, "Segoe UI", sans-serif; }
+    a { color: var(--brand); }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; }
+    .logo { display: flex; align-items: center; gap: 10px; font: 800 24px Fraunces, serif; color: var(--brand); text-decoration: none; }
+    .mark { width: 40px; height: 40px; border-radius: 12px; background: var(--brand); color: var(--accent); display: grid; place-items: center; font: 800 22px Fraunces, serif; }
+    .btn { display: inline-block; padding: 12px 22px; border-radius: 12px; background: var(--brand); color: #fff; font-weight: 600; text-decoration: none; }
+    @media (prefers-color-scheme: dark) { .btn { color: #11160f; } }
+    .btn.alt { background: transparent; color: var(--brand); border: 2px solid var(--brand); }
+    .hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; padding: 48px 0 64px; }
+    h1 { font: 800 clamp(36px, 6vw, 60px)/1.05 Fraunces, serif; margin: 0 0 16px; letter-spacing: -.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
+    .jar { aspect-ratio: 1; border-radius: 32px; background: radial-gradient(circle at 30% 30%, var(--accent), #c98a12 70%); display: grid; place-items: center; font-size: 140px; box-shadow: 0 30px 60px rgba(0,0,0,.15); }
+    h2 { font: 700 32px Fraunces, serif; margin: 0 0 20px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 22px; }
+    .card .e { font-size: 40px; }
+    .card h3 { margin: 8px 0 6px; font: 700 20px Fraunces, serif; }
+    .card p { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
+    section { padding: 40px 0; }
+    .why { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .why div { padding: 18px; border-left: 4px solid var(--accent); background: var(--surface); border-radius: 0 14px 14px 0; }
+    footer { border-top: 1px solid var(--border); padding: 28px 0 48px; color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; }
+    @media (max-width: 760px) { .hero, .grid, .why { grid-template-columns: 1fr; } .jar { max-width: 280px; margin: 0 auto; font-size: 110px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="/"><span class="mark">O</span>Opickles</a>
+      <a class="btn alt" href="https://www.amazon.in/s?k=Opickles" rel="noopener">Shop on Amazon</a>
+    </header>
+
+    <div class="hero">
+      <div>
+        <h1>Homemade pickles, the way ghar ka achar should taste.</h1>
+        <p class="lead">Opickles makes small-batch, handmade Indian pickles: tangy Jalpai ka Achar, sweet Meetha Aam ka Achar and more, packed with care and delivered across India.</p>
+        <a class="btn" href="https://www.amazon.in/s?k=Opickles" rel="noopener">Buy on Amazon.in →</a>
+      </div>
+      <div class="jar" aria-hidden="true">🫙</div>
+    </div>
+
+    <section>
+      <h2>Our pickles</h2>
+      <div class="grid">
+        <div class="card"><div class="e">🫒</div><h3>Jalpai ka Achar</h3><p>Indian olive pickle, our most-loved jar. Sour, spicy and made at home.</p><a href="https://www.amazon.in/dp/B0BSFH3RTZ" rel="noopener">View on Amazon →</a></div>
+        <div class="card"><div class="e">🥭</div><h3>Meetha Aam ka Achar</h3><p>Sweet mango pickle with warm spices, a favourite with parathas.</p><a href="https://www.amazon.in/dp/B09QGNWYD6" rel="noopener">View on Amazon →</a></div>
+        <div class="card"><div class="e">🌶️</div><h3>More flavours</h3><p>See the full Opickles range, sizes and combos on our Amazon store.</p><a href="https://www.amazon.in/s?k=Opickles" rel="noopener">Browse all →</a></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Opickles</h2>
+      <div class="why">
+        <div><b>Homemade</b><br><span style="color:var(--muted)">Made in small batches by hand, like family recipes.</span></div>
+        <div><b>Packed with care</b><br><span style="color:var(--muted)">Sealed jars, packed to reach you safely.</span></div>
+        <div><b>Easy to order</b><br><span style="color:var(--muted)">Sold and delivered through Amazon.in.</span></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Lalita's Collection · Opickles</span>
+      <span><a href="privacy.html">Privacy notice</a> · <a href="mailto:ankitjhunjhunwala03@gmail.com">ankitjhunjhunwala03@gmail.com</a></span>
+    </footer>
+  </div>
+</body>
+</html>
